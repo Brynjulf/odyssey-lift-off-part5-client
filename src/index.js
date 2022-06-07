@@ -5,7 +5,7 @@ import Pages from './pages';
 import { ApolloProvider, ApolloClient, InMemoryCache } from '@apollo/client';
 
 const client = new ApolloClient({
-  uri: process.env.BASEURI || 'http://localhost:4000',
+  uri: 'https://brisb-learning-graphql-server.herokuapp.com/',
   cache: new InMemoryCache(),
 });
 
